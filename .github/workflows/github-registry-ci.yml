@@ -37,7 +37,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/wanlianlian/simplewhale:latest
+          tags: ghcr.io/wanlianlian/spring-petclinic:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
